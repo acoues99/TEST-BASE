@@ -4,11 +4,16 @@
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
-  "DeployTo-developments": {
+  "DeployTo": {
     "EnvironmentName": "developments",
     "continuousDeployment": true,
-    "scope": "PTE"
+    "Scope": "PTE"
   },
   "enableCodeCop": true,
-  "enableUICop": true
+  "enableUICop": true,
+  "workflowDefaultInputs": [
+    { 
+      "name": "updateVersionNumber", "value": "+0.1" 
+    }
+  ]
 }
